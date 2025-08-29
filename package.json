@@ -1,0 +1,25 @@
+{
+  "name": "soso-walkie-server",
+  "version": "1.0.0",
+  "description": "Real-time WebSocket server for Soso Walkie Talkie app - Railway deployment",
+  "main": "simple-websocket-server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node simple-websocket-server.js",
+    "dev": "node simple-websocket-server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.2"
+  },
+  "keywords": [
+    "websocket",
+    "real-time",
+    "voice",
+    "walkie-talkie",
+    "railway"
+  ],
+  "author": "Soso Walkie Team",
+  "license": "MIT"
+}
